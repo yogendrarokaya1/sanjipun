@@ -1,0 +1,106 @@
+.main-container {
+    width: 100%;
+    background-color: black
+}
+
+.container-main {
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: 100% 400px;
+    background-image: url("/public/images/Vector.png");
+    background-color: black
+}
+
+
+
+.column1-images {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.col1-img1 img, .col1-img3 img {
+    width: 180px;
+    height: 240px;
+    padding: 10px;
+    border-radius: 100px;
+
+}
+
+.col1-img2 img {
+    width: 240px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.count-desc {
+
+    color: aliceblue;
+    width: 85%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: darkred;
+    border-radius: 20px;
+    border: 2px solid;
+}
+
+.count-desc-content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.total, .sold, .price {
+    width: 33.33%;
+    padding: 20px;
+
+}
+
+.count-number {
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.count-title {
+    font-size: 16px;
+
+}
+
+/* *********************************************************************** */
+.container-column2 {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.column2-contents {
+    width: 80%;
+    margin: 100px auto 0px auto;
+    color: white;
+    text-align: center;
+}
+
+.red-saint-title {
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.scarf-subhead {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin: 20px;
+
+}
+/* @media screen and (max-width: 640px) {
+    .column1-images{
+        flex-direction: column;
+    }
+ } */
